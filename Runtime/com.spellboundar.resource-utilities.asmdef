@@ -1,0 +1,14 @@
+{
+    "name": "com.spellboundar.resource-utilities",
+    "rootNamespace": "SpellBoundAR.ResourceUtilities",
+    "references": [],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

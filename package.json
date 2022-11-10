@@ -1,0 +1,17 @@
+{
+  "name": "com.spellboundar.resource-utilities",
+  "version": "1.0.0",
+  "displayName": "Resource Utilities",
+  "description": "Makes working with resources and loading assets easier.",
+  "unity": "2019.1",
+  "keywords": [
+    "resources",
+    "tools"
+  ],
+  "author": {
+    "name": "Chris Monteferrante",
+    "email": "chris@spellboundar.com",
+    "url": ""
+  },
+  "type": "tool"
+}

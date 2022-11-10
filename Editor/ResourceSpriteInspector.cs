@@ -14,6 +14,8 @@ namespace SpellBoundAR.ResourceUtilities.Editor
             {
                 EditorGUILayout.PropertyField(serializedObject.FindProperty("spriteFolder"));
             }
+
+            serializedObject.ApplyModifiedProperties();
         }
     }
 }

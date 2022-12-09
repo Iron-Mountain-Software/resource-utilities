@@ -1,12 +1,19 @@
 using UnityEditor;
+using UnityEngine;
 
 namespace SpellBoundAR.ResourceUtilities.Editor
 {
-    [CustomEditor(typeof(ResourceSprite), true)]
-    public class ResourceSpriteInspector : UnityEditor.Editor
+    [CustomEditor(typeof(ResourceSprite), true), CanEditMultipleObjects]
+    public class ResourceSpriteInspector : ResourceAssetInspector
     {
         public override void OnInspectorGUI()
         {
+            if (GUILayout.Button("Refresh Folder"))
+            {
+                serializedObject.FindProperty("spriteFolder").stringValue = GetCurrentRelativeFolder();
+                EditorUtility.SetDirty(target);
+            }
+
             EditorGUILayout.PropertyField(serializedObject.FindProperty("spriteFolder"));
             EditorGUILayout.PropertyField(serializedObject.FindProperty("spriteName"));
             EditorGUILayout.PropertyField(serializedObject.FindProperty("sliced"));

@@ -1,7 +1,7 @@
 using System.Linq;
 using UnityEngine;
 
-namespace SpellBoundAR.ResourceUtilities
+namespace IronMountain.ResourceUtilities
 {
     [CreateAssetMenu(menuName = "Scriptable Objects/Utilities/Resources/Resource Sprite")]
     public class ResourceSprite : ResourceAsset<Sprite>

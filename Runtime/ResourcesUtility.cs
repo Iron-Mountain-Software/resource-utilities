@@ -1,7 +1,7 @@
 ﻿using System.Linq;
 using UnityEngine;
 
-namespace SpellBoundAR.ResourceUtilities
+namespace IronMountain.ResourceUtilities
 {
     public static class ResourcesUtility
     {

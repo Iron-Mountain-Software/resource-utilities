@@ -2,7 +2,7 @@ using System.IO;
 using UnityEditor;
 using UnityEngine;
 
-namespace SpellBoundAR.ResourceUtilities.Editor
+namespace IronMountain.ResourceUtilities.Editor
 {
     public static class MenuItems
     {

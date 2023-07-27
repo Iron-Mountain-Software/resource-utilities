@@ -1,6 +1,6 @@
 {
-    "name": "com.spellboundar.resource-utilities",
-    "rootNamespace": "SpellBoundAR.ResourceUtilities",
+    "name": "com.iron-mountain.resource-utilities",
+    "rootNamespace": "IronMountain.ResourceUtilities",
     "references": [],
     "includePlatforms": [],
     "excludePlatforms": [],

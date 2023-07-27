@@ -1,7 +1,7 @@
 using System.IO;
 using UnityEngine;
 
-namespace SpellBoundAR.ResourceUtilities
+namespace IronMountain.ResourceUtilities
 {
     public abstract class ResourceAsset<T> : ScriptableObject where T : Object
     {

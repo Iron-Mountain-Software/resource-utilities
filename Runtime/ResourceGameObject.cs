@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace SpellBoundAR.ResourceUtilities
+namespace IronMountain.ResourceUtilities
 {
     [CreateAssetMenu(menuName = "Scriptable Objects/Utilities/Resources/Resource GameObject")]
     public class ResourceGameObject : ResourceAsset<GameObject>

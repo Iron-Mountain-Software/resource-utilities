@@ -1,6 +1,6 @@
 {
-    "name": "com.spellboundar.resource-utilities.Editor",
-    "rootNamespace": "SpellBoundAR.ResourceUtilities",
+    "name": "com.iron-mountain.resource-utilities.Editor",
+    "rootNamespace": "IronMountain.ResourceUtilities",
     "references": [
         "GUID:f0da3d99f602d4f3684fb5a3de0dce7f"
     ],

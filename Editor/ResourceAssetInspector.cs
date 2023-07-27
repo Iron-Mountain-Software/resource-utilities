@@ -2,7 +2,7 @@ using System.IO;
 using System.Linq;
 using UnityEditor;
 
-namespace SpellBoundAR.ResourceUtilities.Editor
+namespace IronMountain.ResourceUtilities.Editor
 {
     [CustomEditor(typeof(ResourceAsset<>), true), CanEditMultipleObjects]
     public class ResourceAssetInspector : UnityEditor.Editor

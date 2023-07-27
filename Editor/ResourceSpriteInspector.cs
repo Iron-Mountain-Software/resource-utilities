@@ -1,7 +1,7 @@
 using UnityEditor;
 using UnityEngine;
 
-namespace SpellBoundAR.ResourceUtilities.Editor
+namespace IronMountain.ResourceUtilities.Editor
 {
     [CustomEditor(typeof(ResourceSprite), true), CanEditMultipleObjects]
     public class ResourceSpriteInspector : ResourceAssetInspector

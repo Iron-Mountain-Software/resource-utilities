@@ -1,6 +1,6 @@
 {
-  "name": "com.spellboundar.resource-utilities",
-  "version": "1.0.1",
+  "name": "com.iron-mountain.resource-utilities",
+  "version": "1.1.0",
   "displayName": "Resource Utilities",
   "description": "Makes working with resources and loading assets easier.",
   "unity": "2019.1",

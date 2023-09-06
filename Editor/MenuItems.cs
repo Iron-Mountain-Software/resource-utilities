@@ -30,21 +30,24 @@ namespace IronMountain.ResourceUtilities.Editor
                 string filename = Path.GetFileNameWithoutExtension(assetPath);
                 if (selection is Texture2D)
                 {
+                    ResourceTexture2D resourceTexture2D = ScriptableObject.CreateInstance(typeof(ResourceTexture2D)) as ResourceTexture2D;
+                    if (!resourceTexture2D) continue;
+                    resourceTexture2D.Initialize(relativePath, filename);
+                    Save(directory, filename, resourceTexture2D);
+                }
+                else if (selection is Sprite)
+                {
                     ResourceSprite resourceSprite = ScriptableObject.CreateInstance(typeof(ResourceSprite)) as ResourceSprite;
-                    if (resourceSprite)
-                    {
-                        resourceSprite.Initialize(relativePath, filename);
-                        Save(directory, filename, resourceSprite);
-                    }
+                    if (!resourceSprite) continue;
+                    resourceSprite.Initialize(relativePath, filename);
+                    Save(directory, filename, resourceSprite);
                 }
                 else if (selection is GameObject)
                 {
                     ResourceGameObject resourceGameObject = ScriptableObject.CreateInstance(typeof(ResourceGameObject)) as ResourceGameObject;
-                    if (resourceGameObject)
-                    {
-                        resourceGameObject.Initialize(relativePath, filename);
-                        Save(directory, filename, resourceGameObject);
-                    }
+                    if (!resourceGameObject) continue;
+                    resourceGameObject.Initialize(relativePath, filename);
+                    Save(directory, filename, resourceGameObject);
                 }
             }
         }
